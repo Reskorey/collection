@@ -11,3 +11,5 @@ mvn install:install-file -Dfile=chain-sdk-1.0.0.jar -DgroupId=com.zdww.sroc -Dar
 ```
 mvn org.apache.maven.plugins:maven-install-plugin:3.0.0-M1:install-file -Dfile=chain-sdk-1.0.0.jar 
 ```
+
+参考： https://stackoverflow.com/questions/26258877/maven-does-not-read-pom-when-installing-jar-to-repository
